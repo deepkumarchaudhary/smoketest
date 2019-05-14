@@ -1,8 +1,8 @@
-<<<<<<< HEAD:build/appveyor.yml
+
 # https://www.appveyor.com/docs/lang/nodejs-iojs/
 # Test against the latest version of this Node.js version
-environment:
-  nodejs_version: "10"
+#environment:
+ # nodejs_version: "10"
 
 # Install scripts. (runs after repo cloning)
 install:
