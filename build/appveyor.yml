@@ -1,4 +1,3 @@
-
 # https://www.appveyor.com/docs/lang/nodejs-iojs/
 # Test against the latest version of this Node.js version
 #environment:
@@ -45,8 +44,8 @@ environment:
   nodejs_version: "10"
 
 # Install scripts. (runs after repo cloning)
-install:
-  - ps: Install-Product node $env:nodejs_version
+#install:
+ # - ps: Install-Product node $env:nodejs_version
   # Output useful info for debugging.
   - node --version
   - npm --version
@@ -78,4 +77,3 @@ cache:
 #for testing
 # Don't actually build, we are only interested in tests
 build: off
->>>>>>> d20e94f977f5adf7cc4ab79dbcfa183eac2cbe59:appveyor.yml
