@@ -39,7 +39,7 @@ test_script:
 - npm run test
 
 #---generate report in html formate
-npx mochawesome-merge — reportDir ./mochawesome-report > mochawesome-report/outputcombined.json
+#npx mochawesome-merge — reportDir ./mochawesome-report > mochawesome-report/outputcombined.json
 #npx mochawesome-report-generator C:\projects\smoketest\mochawesome-report\outputcombined.json
 
 # Don't actually build, we are only interested in tests
