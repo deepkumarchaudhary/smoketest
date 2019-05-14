@@ -20,7 +20,8 @@ install:
   # install global bin-up
   # to avoid problems with finding tool paths on Windows
   - npm i -g bin-up
-
+  #npx installation
+  - npm install -g npx  
 cache:
   # cache NPM packages and Cypress binary
   # https://www.appveyor.com/docs/build-cache/
@@ -39,7 +40,6 @@ test_script:
 
 #---generate report in html formate
 npx mochawesome-merge — reportDir ./mochawesome-report > mochawesome-report/outputcombined.json
-#npx mochawesome-report-generator C:\CP-Testautomation-DXM\cypress-project\mochawesome-report\outputcombined.json --Not required
 npx mochawesome-report-generator C:\projects\smoketest\mochawesome-report\outputcombined.json
 
 # Don't actually build, we are only interested in tests
