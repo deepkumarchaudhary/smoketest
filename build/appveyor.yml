@@ -33,7 +33,8 @@ cache:
   # using APPVEYOR_SAVE_CACHE_ON_ERROR: true environment variable
 
 test_script:
-  - npm run test:ci:windows
+#  - npm run test:ci:windows
+- npm run test
 
 # Don't actually build, we are only interested in tests
 build: off
