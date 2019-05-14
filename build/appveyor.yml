@@ -14,8 +14,8 @@ install:
   # print cached dependencies
   - echo '%AppData%\npm-cache'
   - echo '%USERPROFILE%\AppData\Local\Cypress\Cache'
-  - dir '%AppData%\npm-cache' || true
-  - dir '%USERPROFILE%\AppData\Local\Cypress\Cache' || true
+  - ll '%AppData%\npm-cache' || true
+  - ll '%USERPROFILE%\AppData\Local\Cypress\Cache' || true
   #- npm ci
   # install global bin-up
   # to avoid problems with finding tool paths on Windows
@@ -35,12 +35,12 @@ cache:
 #-----Disabled for a time being
 #test_script:
 #  - npm run test:ci:windows
-#- npm run test
+- npm run test
 
 #---generate report in html formate
-#npx mochawesome-merge — reportDir ./mochawesome-report > mochawesome-report/outputcombined.json
+npx mochawesome-merge — reportDir ./mochawesome-report > mochawesome-report/outputcombined.json
 #npx mochawesome-report-generator C:\CP-Testautomation-DXM\cypress-project\mochawesome-report\outputcombined.json --Not required
-#npx mochawesome-report-generator C:\projects\smoketest\mochawesome-report\outputcombined.json
+npx mochawesome-report-generator C:\projects\smoketest\mochawesome-report\outputcombined.json
 
 # Don't actually build, we are only interested in tests
 build: off
