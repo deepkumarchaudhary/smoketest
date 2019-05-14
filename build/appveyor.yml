@@ -76,4 +76,4 @@ environment:
  # - npm run test:ci:windows
 #for testing
 # Don't actually build, we are only interested in tests
-build: off
+#build: off
