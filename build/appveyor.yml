@@ -38,7 +38,7 @@ test_script:
 
 # Don't actually build, we are only interested in tests
 build: off
-=======
+#=======
 # https://www.appveyor.com/docs/lang/nodejs-iojs/
 # Test against the latest version of this Node.js version
 environment:
