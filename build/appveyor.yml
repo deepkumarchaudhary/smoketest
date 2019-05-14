@@ -61,7 +61,7 @@ environment:
   # to avoid problems with finding tool paths on Windows
   #- npm i -g bin-up
 
-cache:
+#cache:
   # cache NPM packages and Cypress binary
   # https://www.appveyor.com/docs/build-cache/
   # https://docs.npmjs.com/files/folders.html#cache
