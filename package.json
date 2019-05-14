@@ -1,0 +1,35 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "CypressTestProject",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open test",
+    "go": "cypress open --browser chromium lint test",
+    "test": "./node_modules/.bin/cypress run --reporter mochawesome",
+    "cy": "./node_modules/.bin/cypress open",
+    "lint": "tslint -c tslint.json -p .  -t stylish cypress/**/*.ts",
+    "testNothing": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aalok Payal",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.9.3",
+    "jasmine-data-provider": "^2.2.0",
+    "mysql": "^2.16.0",
+    "typescript-collections": "^1.3.2"
+  },
+  "devDependencies": {
+    "@types/cypress": "^1.1.3",
+    "@types/mocha": "^5.2.0",
+    "cypress": "^3.2.0",
+    "eslint-plugin-cypress": "^2.2.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1",
+    "mochawesome-merge": "^1.0.7",
+    "mochawesome-report-generator": "^3.1.5",
+    "npm": "^6.9.0",
+    "read-data": "^1.1.0",
+    "tslint-plugin-cypress": "^1.0.4"
+  }
+}
