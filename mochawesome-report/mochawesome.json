@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-05-10T19:45:31.652Z",
+    "end": "2019-05-10T19:46:46.307Z",
+    "duration": 74655,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "d1e00b93-8e96-46bb-8726-9daca2dc7b30",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "c3839ca5-9a19-4981-895a-3f69810a64e3",
+        "title": "Asset should ",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Asset creation: To verify user able to create using customized template",
+            "fullTitle": "Asset should  Asset creation: To verify user able to create using customized template",
+            "duration": 71650,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "//Create SiteRoot\ncy.wait(_locators.default.shortWait);\ncy.get('.module.content').should('be.visible').click({\n  force: true\n});\ncy.wait(5000); //Open File Menu and check New->Sub menu items are displaying\ncy.get('div[title=\\'Content\\']').click();\nMenuPageObject.clickMenuItem(menuItem);\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('New').trigger('mouseover').should('be.visible');\ncy.wait(2000);\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Site Root').trigger('mousemove');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Site Root').click({\n  force: true\n});\ncy.log('**The Create Site Root prompt should come up.**');\ncy.get('p-header').should('have.text', 'Create Site Root ');\ncy.log('**Enter New site root name in textbox**');\ncy.get('#siteRootInput').should('be.visible').trigger('click');\ncy.log('**Text should be in the text box.**');\ncy.get('#siteRootInput').type(siteRootName);\ncy.log('**Click on Install Component Project using Component Library 2.1 checkbox**');\ncy.get('div.checkbox').should('be.visible');\ncy.get('div.checkbox').children('label').should('have.text', 'Install Component Project using Component Library 2.1');\ncy.get('div.checkbox').click();\ncy.log('**A check mark should appear in the box and two more options should appear**');\ncy.get('.checkbox.ng-star-inserted').should('have.length', 2);\ncy.get('.checkbox.ng-star-inserted > label').first().should('have.text', 'Install Samples');\ncy.get('.checkbox.ng-star-inserted > label').first().children('input').should('be.checked');\ncy.get('.checkbox.ng-star-inserted > label').last().should('have.text', 'Rebuild Site After Creation ');\ncy.get('.checkbox.ng-star-inserted > label').last().children('input').should('be.checked');\ncy.log('**Click on save button**');\ncy.get('.ui-dialog-footer').should('be.visible').children('p-footer').children('button').last().click({\n  force: true\n});\ncy.log('**A notification should come up stating that the Site Root is created.**');\ncy.get(_locators.default.toastNotificationMessage).should('have.text', 'Created site root ' + siteRootName + '.'); //Search for created SiteRoot and open it\ncy.get('[ng-click=\"vm.toggleSearchDropdown(true)\"] > cp-svg').click();\ncy.get('[placeholder=\"Label\"]').click();\ncy.get('[placeholder=\"Label\"]').clear();\ncy.get('[placeholder=\"Label\"]').type(siteRootName);\ncy.get('.btn-primary').click();\ncy.wait(2000);\ncy.get('div.assetRow.ng-scope').contains(siteRootName).should('be.visible');\ncy.wait(3000);\ncy.get('div.assetRow.ng-scope').contains(siteRootName).trigger('dblclick');\ncy.wait(2000);\ncy.log('The folder should open and display _Assets, _Site Confi, Component Project folders and a Demo Page and Page assets.');\ncy.get('.assetLabelLink.ng-binding').contains('_Assets').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('_Site Config').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Component Project').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Demo Page').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Page').should('be.visible');\ncy.log('The folder should open and display _Assets, _Site Confi, Component Project folders and a Demo Page and Page assets.');\ncy.get('.assetLabelLink.ng-binding').contains('_Assets').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('_Site Config').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Component Project').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Demo Page').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Page').should('be.visible');\ncy.log('**Action: Double click on Component folder**');\ncy.get('.assetLabelLink.ng-binding').contains('Component Project').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Component Project').trigger('dblclick');\ncy.wait(5000);\ncy.log('**Component Project folder should open and display: Component Library, Filenames, Library, Models, Templates, Workflows folders.**');\ncy.get('.assetLabelLink.ng-binding').contains('Component Library').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Filenames').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Library').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Models').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Templates').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Workflows').should('be.visible');\ncy.log('**Action: Double click on Templates folder**');\ncy.get('.assetLabelLink.ng-binding').contains('Templates').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Templates').trigger('dblclick');\ncy.wait(5000);\ncy.log('**Templates folder should open with various folders.**');\ncy.get('.assetLabelLink.ng-binding').contains('Component Framework').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Summer of Fun v3 No Footer Template').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Summer of Fun v3 Template').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Summer of Fun v3 Template - Modified').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Summer of Fun v3 Template - Zones').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Summer of Fun Wrapper').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('Summer of Fun Wrapper No Footer').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('wysiwyg image test template').should('be.visible');\ncy.log('**Goto File >>New >> click on Template**');\nMenuPageObject.clickMenuItem(menuItem);\nMenuPageObject.clickSubMenuItem(menuItem, subMenuItem);\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Template').trigger('mousemove').trigger('click');\ncy.log('**The Create Template prompt should come up.**');\ncy.get('p-header').should('have.text', 'Create Template ');\ncy.log('**Enter a new template name in text box**');\ncy.log('**Click on create**');\ncy.get('.control-label').should('have.text', 'Enter a new template name');\ncy.get('#projectInput').should('be.visible').trigger('click');\ncy.log('**Text should be in the text box.**');\ncy.get('#projectInput').type(templateFolderName);\ncy.get('.ui-dialog-footer').should('be.visible').children('p-footer').children('button').last().click({\n  force: true\n});\ncy.get(_locators.default.toastNotificationMessage).should('have.text', 'Created ' + templateFolderName + '.');\ncy.wait(5000);\ncy.log('**Action: Double click on newly created Template folder**');\ncy.get('.assetLabelLink.ng-binding').contains(templateFolderName).should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains(templateFolderName).trigger('dblclick');\ncy.wait(5000);\ncy.log('**input.aspx and output.aspx folder should be present.**');\ncy.get('.assetLabelLink.ng-binding').contains('input.aspx').should('be.visible');\ncy.get('.assetLabelLink.ng-binding').contains('output.aspx').should('be.visible'); // cy.log(\"Action: Double click on input.aspx file**\");\n// cy.get('.assetLabelLink.ng-binding').contains('input.aspx').trigger('dblclick');\n// cy.log(\"**Input.aspx should open.**\");\n// cy.get('.background > .ng-binding').should('have.text', 'input.aspx');\n// cy.wait(10000);\n// //Input code in Input.aspx\n// cy.log(\"**Open Input.aspx and insert code **\");\n// cy.get(':nth-child(5) > .CodeMirror-line > [role=\"presentation\"]').click().then($codeText => {\n//     $codeText.text('<%');\n//     $codeText.text(InputchangeExisting);\n//     cy.wait(3000)\n// });\n// cy.get('div:nth-child(9) pre.CodeMirror-line span:nth-child(1) > span.cm-comment').then($codeText => {\n//     $codeText.text('<%');\n//     $codeText.text(inputCode);\n//     cy.wait(3000)\n// });\n// //Save Input.aspx and validate the toast message    \n// cy.log(\"**Validate Input.aspx Toast Message **\");\n// cy.get('#contentModuleSave').click();\n// cy.get(Constants.elementNotificationMessage).should('have.text', 'Compilation SucceededSaved asset(s)');\n// //Close Input.aspx\n// cy.log(\"**Close Input.aspx File **\");\n// cy.get('button.tabCloseButton').click({ force: true })\n// //Double click and open Output.aspx\n// cy.log(\"Action: Double click on input.aspx file**\");\n// cy.get('.assetLabelLink.ng-binding').contains('output.aspx').trigger('dblclick');\n// // Open Output.aspx file\n// cy.log(\"**Output.aspx should open.**\");\n// cy.wait(3000)\n// cy.get('.background > .ng-binding').should('have.text', 'output.aspx');\n// cy.wait(10000);\n// //Insert code in Output.aspx\n// cy.log(\"**Open Output.aspx and insert drag and drop code **\");\n// cy.get(':nth-child(5) > .CodeMirror-line > [role=\"presentation\"]').click().then($codeText => {\n//     $codeText.text('<%');\n//     $codeText.text(OutputChangeExisting);\n// });\n// cy.get(':nth-child(12) > .CodeMirror-line > [role=\"presentation\"] > .cm-comment').click().then($codeText => {\n//     $codeText.text('<%');\n//     $codeText.text(Outputcode);\n// });\n// //Save Output.aspx and validate the toast message    \n// cy.log(\"**Validate Output.aspx Toast Message **\");\n// cy.get('#contentModuleSave').click();\n// cy.get(Constants.elementNotificationMessage).should('have.text', 'Compilation SucceededSaved asset(s)');\n// //need to check toast message****\n// //Close Output.aspx\n// cy.log(\"**Close Output.aspx File **\");\n// cy.get('button.tabCloseButton').click({ force: true })",
+            "err": {},
+            "isRoot": false,
+            "uuid": "e8726b5e-f320-49bf-a18c-7db44e9d17d0",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "e8726b5e-f320-49bf-a18c-7db44e9d17d0"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 71650,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}

@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-05-10T20:08:20.919Z",
+    "end": "2019-05-10T20:10:18.638Z",
+    "duration": 117719,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "8a125ad3-6b7c-42fe-aaa3-b9b6e314a6f6",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "62433a73-dab0-41e2-a9b3-fe9cfb9cb591",
+        "title": "Settings should ",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": ".should() - login to v3 > navigate through reports > verify each settings",
+            "fullTitle": "Settings should  .should() - login to v3 > navigate through reports > verify each settings",
+            "duration": 114425,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "/*\nGo to Settings menu\nOptions will display\n*/\ncy.wait(_locators.default.shortWait);\ncy.get('.module.settings').should('be.visible').click({\n  force: true\n});\ncy.wait(_locators.default.shortWait);\ncy.get('.cpModuleHeader').first().should('have.text', 'Settings');\ncy.get('p-header').contains('Account').should('be.visible');\ncy.url().should('include', '/settings/account/profile');\ncy.get('h1').first().should('have.text', 'Edit Profile');\n/*\nClick on Edit Preferences\n*/\ncy.get('a').contains('Edit Preferences').should('be.visible').click().url().should('include', '/account/preferences'); // Edit Preferences page should display\ncy.get('h1').first().contains('Preferences').should('be.visible');\n/*\nClick on Users/groups>> Users\n*/\ncy.get('p-header').contains('Users / Groups').should('be.visible').click();\ncy.wait(8000);\ncy.get('#ui-accordiontab-1-content > .ui-accordion-content > :nth-child(1) > ul.ng-star-inserted > .ng-star-inserted > a').should('be.visible').click({\n  timeout: _locators.default.wait\n});\ncy.wait(_locators.default.wait); // Edit Preferences page should display\ncy.url().should('include', '/users/groups/users');\ncy.get('h1').first().should('have.text', 'Users'); // Click on Users/groups>> Groups\ncy.get('#ui-accordiontab-1-content > .ui-accordion-content > :nth-child(2) > ul.ng-star-inserted > .ng-star-inserted > a').should('be.visible').click().url().should('include', '/users/groups/groups'); // Page with groups info should display\ncy.get('h1').first().contains('Groups').should('be.visible'); // Click on Workflow>> Workflows\ncy.get('p-header').contains('Workflow').should('be.visible').click(); // List of Workflows should display\ncy.get('#ui-accordiontab-2-content > .ui-accordion-content > :nth-child(1) > ul.ng-star-inserted > .ng-star-inserted > a').should('be.visible').click({\n  timeout: _locators.default.shortWait\n});\ncy.wait(_locators.default.wait);\ncy.url().should('include', '/workflow/workflows'); // Click on Test workflow or any workflow\ncy.get('h1').first().should('have.text', 'Workflows');\n/*  Edit Workflow modal should appear\n    Click on Test workflow \n    Click on Edit steps link\n*/\ncy.get('tr:nth-child(1) > td:nth-child(1)').should('be.visible');\ncy.get('tr:nth-child(1) > td:nth-child(1)').click({\n  force: true\n}); // Edit the name of the workflow and description>> Click on Cancel button\ncy.get('#description').clear();\ncy.get('#description').type('Automation test');\ncy.log('**Action: Select Cancel.**');\ncy.get('button.cancel.btn').contains('Cancel').should('be.visible').click();\ncy.get('p-header').contains('Discard Changes').should('be.visible');\ncy.get('div.modal-body').should('have.text', ' Are you sure you want to discard changes? ');\ncy.get('button.btn.btn-danger').contains('Discard Changes').should('be.visible');\ncy.log('**Action: Select Discard changes button.**');\ncy.get('button.btn.btn-danger').contains('Discard Changes').click(); // Click on Workflow>> Workflow Filters\ncy.get('a').contains('Workflow Filters').should('be.visible').click().url().should('include', '/workflow/workflowFilters'); // Workflow Filters should display\ncy.get('h1').first().contains('Workflow Filters').should('be.visible'); // Click on Publishing>> Export SFTP\ncy.get('p-header').contains('Publishing').should('be.visible').click(); // Export SFTP page should display\ncy.get('a').contains('Export SFTP').should('be.visible').click();\ncy.wait(_locators.default.shortWait);\ncy.url().should('include', '/publishing/exportftp');\ncy.get('h1').first().should('have.text', 'Export SFTP'); // Click on Publishing>> Export S3\ncy.get('a').contains('Export S3').should('be.visible').click().url().should('include', '/publishing/exports3'); // Export S3 page should display\ncy.get('h1').first().should('have.text', 'Export S3'); // Click on Publishing>> FTP Certificates\ncy.get('a').contains('FTP Certificates').should('be.visible').click().url().should('include', '/publishing/ftpcertificates'); // FTP Certificates page should display\ncy.get('h1').first().should('have.text', 'FTP Certificates'); // Click on Publishing>> FTP Mounts\ncy.get('a').contains('FTP Mounts').should('be.visible').click().url().should('include', '/publishing/ftp-mounts'); // FTP Mounts page should display\ncy.get('h1').first().should('have.text', 'FTP Mounts'); // Click on Publishing>> Export HTTP\ncy.get('a').contains('Export HTTP').should('be.visible').click().url().should('include', '/publishing/exporthttpservers'); // Export HTTP page should display\ncy.get('h1').first().should('have.text', 'Export HTTP'); // Click on Publishing>> Packages\ncy.get('a').contains('Packages').should('be.visible').click().url().should('include', '/publishing/packages'); // Packages page should display\ncy.get('h1').first().should('have.text', 'Packages'); // Click on Publishing>>  Fed Auth Configuration\ncy.get('a').contains('Fed Auth Configuration').should('be.visible').click().url().should('include', '/publishing/fedauth'); // Fed Auth Configuration page should display\ncy.get('h1').first().should('have.text', 'Fed Auth Configuration'); // Click on Publishing>>  Filenames\ncy.get('a').contains('Filenames').should('be.visible').click().url().should('include', '/publishing/filenames'); // Filenames page should display\ncy.get('h1').first().should('have.text', 'Filenames'); // Click on Publishing>>  Import SMTP\ncy.get('a').contains('Import SMTP').should('be.visible').click().url().should('include', '/publishing/importsmtp'); // Import SMTP page should display\ncy.get('h1').first().should('have.text', 'Import SMTP'); // Click on Publishing>>  Import SFTP\ncy.get('a').contains('Import SFTP').should('be.visible').click().url().should('include', '/publishing/importsftp'); // Import SFTP page should display\ncy.get('h1').first().should('have.text', 'Import SFTP'); // Click on Publishing>>  Configuration\ncy.get('p-header').contains('Configuration').should('be.visible').click(); // click on Configuration>> DQM\ncy.get('a').contains('DQM').click({\n  force: true\n}); // DQM page should display\ncy.wait(_locators.default.shortWait);\ncy.url().should('include', '/configure/dqm');\ncy.get('h1').first().should('have.text', 'DQM'); // Click on Configuration>> WCM\ncy.get('a').contains('WCM').should('be.visible').click().url().should('include', '/configure/wcm'); // WCM page should display\ncy.get('h1').first().should('have.text', 'General WCM'); // Click on Configuration>> WCO\ncy.get('a').contains('WCO').should('be.visible').click().url().should('include', '/configure/wco'); // WCO page should display\ncy.get('h1').first().should('have.text', 'General WCO'); // Click on Configuration>> Search G2\ncy.get('a').contains('Search G2').should('be.visible').click().url().should('include', '/configure/generalsearchg2'); // Search G2 page should display\ncy.get('h1').first().should('have.text', 'Search G2'); // Click on Configuration>> DBaaS Hosts\ncy.get('a').contains('DBaaS Hosts').should('be.visible').click().url().should('include', '/configure/dbaashosts'); // DBaaS Hosts page should display\ncy.get('h1').first().should('have.text', 'DBaaS Hosts'); // Click on Configuration>> DBaaS Connections\ncy.get('a').contains('DBaaS Connections').should('be.visible').click().url().should('include', '/configure/dbaasconnections'); // DBaaS Connections page should display\ncy.get('h1').first().should('have.text', 'DBaaS Connections'); // Click on Configuration>> Authentication Settings\ncy.get('a').contains('Authentication Settings').should('be.visible').click().url().should('include', '/configure/auth'); // Authentication Settings page should display\ncy.get('h1').first().should('have.text', 'Authentication Settings'); // Click on Configuration>> Security\ncy.get('a').contains('Security').should('be.visible').click().url().should('include', '/configure/security'); // Security page should display\ncy.get('h1').first().should('have.text', 'Security'); // Click on Configuration>> Variables\ncy.get('a').contains('Variables').should('be.visible').click().url().should('include', '/configure/variables'); // System Variables page should display\ncy.get('h1').first().should('have.text', 'System Variables'); // Click on Configuration>> Password Expiration\ncy.get('a').contains('Password Expiration').should('be.visible').click().url().should('include', '/configure/passwordpolicy'); // Password Expiration page should display\ncy.get('h1').first().should('have.text', 'Password Expiration'); // Click on Configuration>> Output Views\ncy.get('a').contains('Output Views').should('be.visible').click().url().should('include', '/configure/outputviews'); // Output Views page should display\ncy.get('h1').first().should('have.text', 'Output Views'); // Click on Tools >>DBaaS Console\ncy.get('p-header').contains('Tools').should('be.visible').click();\ncy.get('a').contains('DBaaS Console').should('be.visible').click().url().should('include', '/tools/dbaas-console'); // DBaaS Console  page should display\ncy.get('h1').first().should('have.text', 'DBaaS Console'); // Click on Tools >>Recompile DBaaS Console\ncy.get('a').contains('Recompile').should('be.visible').click().url().should('include', '/tools/recompile'); // Recompile page should display\ncy.get('h1').first().should('have.text', 'Recompile'); // Click on Tools >>Clear link Cache\ncy.get('a').contains('Clear Link Cache').should('be.visible').click().url().should('include', '/tools/clearlinkcache'); // Clear link Cache page should display\ncy.get('h1').first().should('have.text', 'Clear Link Cache');\n/*\n1. Go to user icon on the top right side of page\n2. Click on Profile link\n*/\ncy.wait(_locators.default.wait);\ncy.log('**1. Go to user icon displayed on upper top right of page **');\ncy.get('#topbarUserMenuToggle').click();\ncy.log('**2. Click on Profile link **');\ncy.get('button').contains('Profile').click();\ncy.log('**Profile edit should display**'); // Edit Profile page should display\ncy.get('a').contains('Edit Profile').should('be.visible').url().should('include', '/account/profile');\ncy.get('h1').first().should('have.text', 'Edit Profile');",
+            "err": {},
+            "isRoot": false,
+            "uuid": "d0394d0b-7af7-4e00-abe2-9c729cb221e0",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "d0394d0b-7af7-4e00-abe2-9c729cb221e0"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 114425,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}

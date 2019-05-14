@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-05-10T19:47:30.993Z",
+    "end": "2019-05-10T19:48:39.745Z",
+    "duration": 68752,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "c3262be8-65f9-4960-b763-e647e3d24008",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "09728e25-2aa2-499e-8f55-92e7a5ff05df",
+        "title": "DAM should ",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "DAM: To check digital asset management functionality ",
+            "fullTitle": "DAM should  DAM: To check digital asset management functionality ",
+            "duration": 65770,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "cy.log('**Open Asset **');\ncy.wait(_locators.default.mediumWait);\ncy.get('div[title=\\'Content\\']').click();\nMenuPageObject.clickMenuItem(menuItem);\ncy.get('span.dockable').should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'File View', _locators.default.dockablePanelFile_tab);\ncy.wait(_locators.default.wait); //cy.get('fa fa-times').trigger('click')\ncy.get('[ng-click=\"vm.toggleSearchDropdown(true)\"] > cp-svg').click();\ncy.get('[placeholder=\"Label\"]').click();\ncy.get('[placeholder=\"Label\"]').clear();\ncy.get('[placeholder=\"Label\"]').type(_locators.default.folderName);\ncy.get('.btn-primary').click();\ncy.wait(_locators.default.wait);\ncy.get('.assetLabelLink.ng-binding').contains(_locators.default.folderName).should('be.visible');\ncy.wait(_locators.default.wait);\ncy.get('.assetLabelLink.ng-binding').contains(_locators.default.folderName).trigger('dblclick');\ncy.wait(_locators.default.wait);\ncy.log('**Action: Select Publishing Test.. **');",
+            "err": {},
+            "isRoot": false,
+            "uuid": "9d4fce43-110b-45d5-b2d8-dda9441f61bf",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "9d4fce43-110b-45d5-b2d8-dda9441f61bf"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 65770,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}

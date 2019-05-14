@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-05-10T20:06:58.753Z",
+    "end": "2019-05-10T20:08:02.672Z",
+    "duration": 63919,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "0f824092-7884-4b23-8188-a8f8d06d7387",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "529035c6-33b3-4134-9697-96eca608077b",
+        "title": "Reports should ",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": ".should() - login to v3 > navigate through reports > verify each reports url",
+            "fullTitle": "Reports should  .should() - login to v3 > navigate through reports > verify each reports url",
+            "duration": 60781,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "/*\n    1. Go to Reports menu\n    2. Options will display\n*/\ncy.wait(_locators.default.shortWait);\ncy.get('.module.reports').should('be.visible').click({\n  force: true\n});\ncy.wait(_locators.default.shortWait);\n/*\nInstance Overview page should open and nav should display: \nOperational, Audit, My Reports, Users and Logins, Publishing, \nAssets and Tasks\n*/\nverifyReportsSection(_locators.default.reportsSection_lnk, 'Operational');\ncy.url().should('include', '/reports/operational/instance-overview');\ncy.get(_locators.default.reportsHeader_txt).first().should('have.text', 'Instance Overview'); // Click on Audit>> Asset Publish\nverifyReportsSection(_locators.default.reportsSection_lnk, 'Audit');\ncy.get('a').contains('Asset Publish').should('be.visible').click().url().should('include', '/asset-publish'); // Asset Publish page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Asset Publish').should('be.visible'); // Click on Audit>>  Publish\ncy.get('a').contains(/^Publish$/).should('be.visible').click().url().should('include', '/publish'); // Publish page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Publish').should('be.visible'); // Click on Audit>>  System\ncy.get('a').contains('System').should('be.visible').click().url().should('include', '/system'); // System page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('System').should('be.visible'); // Click on Audit>>  Orphan Content\ncy.get('a').contains('Orphan Content').should('be.visible').click().url().should('include', '/orphan-content'); // Orphan Content page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Orphan Content').should('be.visible'); // Click on My Reports>> My Flagged Assets\nverifyReportsSection(_locators.default.reportsSection_lnk, 'My Reports');\ncy.get('a').contains('My Flagged Assets').should('be.visible').click().url().should('include', '/my-flagged-assets'); // My Flagged Assets page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('My Flagged Assets').should('be.visible'); // Click on My Reports>> My Locked Assets\ncy.get('a').contains('My Locked Assets').should('be.visible').click().url().should('include', '/my-locked-assets'); // My Locked Assets page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('My Locked Assets').should('be.visible'); // Click on My Reports>> My Queued Assets\ncy.get('a').contains('My Queued Assets').should('be.visible').click().url().should('include', '/my-queued-assets'); // My Queued Assets page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('My Queued Assets').should('be.visible'); // Click on My Reports>> My Last Modified\ncy.get('a').contains('My Last Modified').should('be.visible').click().url().should('include', '/my-last-modified'); // My Last Modified page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('My Last Modified').should('be.visible'); // Click on My Reports>> My Alerts\ncy.get('a').contains('My Alerts').should('be.visible').click().url().should('include', '/my-alerts'); // My Alerts page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('My Alerts').should('be.visible'); // Click on My Reports>> My Modified Unpublished\ncy.get('a').contains('My Modified Unpublished').should('be.visible').click().url().should('include', '/my-modified-unpublished'); // My Modified Unpublished page should display     \ncy.get(_locators.default.reportsHeader_txt).first().contains('My Modified Unpublished').should('be.visible'); // Click on My Custom Reports>>  Save Asset report\nverifyReportsSection(_locators.default.reportsSection_lnk, 'My Custom Reports'); // cy.get('a').contains('Save asset report').should('be.visible').click().url().should('include', '/my-custom-report')\n// // Save Asset report should display\n// cy.get('strong').first().contains('Save asset report').should('be.visible');\n// Click on Users and Logins>>   Last Logins\nverifyReportsSection(_locators.default.reportsSection_lnk, 'Users and Logins');\ncy.get('a').contains('Last Logins').should('be.visible').click().url().should('include', '/last-logins'); // Last Logins page should display\ncy.get('strong').first().contains('Last Logins').should('be.visible'); // Click on Users and Logins>>   Most Active Users\ncy.get('a').contains('Most Active Users').should('be.visible').click().url().should('include', '/most-active-users'); // Most Active Users page should display\ncy.get('strong').first().contains('Most Active Users').should('be.visible'); // Click on Users and Logins>>   Least Active Users\ncy.get('a').contains('Least Active Users').should('be.visible').click().url().should('include', '/least-active-users'); // Least Active Users page should display\ncy.get('strong').first().contains('Least Active Users').should('be.visible'); // Click on Users and Logins>>  Login Alerts\ncy.get('a').contains('Login Alerts').should('be.visible').click().url().should('include', '/login-alerts'); // Login Alerts Users page should display\ncy.get('strong').first().contains('Login Alerts').should('be.visible'); // Click on Users and Logins>>  Never Logged In\ncy.get('a').contains('Never Logged In').should('be.visible').click().url().should('include', '/never-logged-in'); // Never Logged In page should display\ncy.get('strong').first().contains('Never Logged In').should('be.visible'); // Click on Publishing>>  Last Published\nverifyReportsSection(_locators.default.reportsSection_lnk, 'Publishing');\ncy.get('a').contains('Last Published').should('be.visible').click().url().should('include', '/last-published'); // Last Published page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Last Published').should('be.visible'); // Click on Publishing>>  Assets Near Publishing\ncy.get('a').contains('Assets Near Publishing').should('be.visible').click().url().should('include', '/assets-near-publishing'); // Assets Near Publishing page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Assets Near Publishing').should('be.visible'); // Click on Publishing>>  Modified Unpublished\ncy.get('a').contains(/^Modified Unpublished$/).should('be.visible').click().url().should('include', '/modified-unpublished'); // Modified Unpublished page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Modified Unpublished').should('be.visible'); // Click on Publishing>>  Asset Refresh Schedule\ncy.get('a').contains('Asset Refresh Schedule').should('be.visible').click().url().should('include', '/asset-refresh-schedule'); // Asset Refresh Schedule page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Asset Refresh Schedule').should('be.visible'); // Click on Publishing>>  Queued Assets\ncy.get('a').contains(/^Queued Assets$/).should('be.visible').click().url().should('include', '/queued-assets'); // Queued Assets page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Queued Assets').should('be.visible'); // Click on Publishing>>  Queue Size\ncy.get('a').contains(/^Queue Size$/).should('be.visible').click().url().should('include', '/queue-size'); // Queue Size page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Queue Size').should('be.visible'); // Click on Publishing>>  Errors\ncy.get('a').contains('Errors').should('be.visible').click().url().should('include', '/errors'); // Errors page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Errors').should('be.visible'); // Click on Assets >>  Locked Assets\nverifyReportsSection(_locators.default.reportsSection_lnk, 'Assets');\ncy.get('a').contains(/^Locked Assets$/).should('be.visible').click().url().should('include', '/locked-assets'); // Locked Assets page should display\ncy.get('strong').first().contains('Locked Assets').should('be.visible'); // Click on Assets >>  Templates\ncy.get('a').contains('Templates').should('be.visible').click().url().should('include', '/templates'); // Templates page should display\ncy.get('strong').first().contains('Templates').should('be.visible'); // Click on Assets >>  New Assets\ncy.get('a').contains('New Assets').should('be.visible').click().url().should('include', '/new-assets'); // New Assets page should display\ncy.get('strong').first().contains('New Assets').should('be.visible'); // Click on Assets >>  Oldest Pages\ncy.get('a').contains('Oldest Pages').should('be.visible').click().url().should('include', '/oldest-pages'); // Oldest Pages page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Oldest Pages').should('be.visible'); // Click on Assets >>  Last Modified\ncy.get('a').contains(/^Last Modified$/).should('be.visible').click().url().should('include', '/last-modified'); // Last Modified page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Last Modified').should('be.visible'); // Click on Assets >>  Slow Performing Templates\ncy.get('a').contains('Slow Performing Templates').should('be.visible').click().url().should('include', '/slow-performing-templates'); // Slow Performing Templates page should display\ncy.get('strong').first().contains('Slow Performing Templates').should('be.visible'); // Click on Tasks>> Workflow Tasks\nverifyReportsSection(_locators.default.reportsSection_lnk, 'Tasks');\ncy.get('a').contains('Workflow Tasks').should('be.visible').click().url().should('include', '/workflow-tasks'); // Workflow Tasks page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Workflow Tasks').should('be.visible'); // Click on Tasks>> Site Tasks\ncy.get('a').contains('Site Tasks').should('be.visible').click().url().should('include', '/site-tasks'); // Site Tasks page should display\ncy.get(_locators.default.reportsHeader_txt).first().contains('Site Tasks').should('be.visible');",
+            "err": {},
+            "isRoot": false,
+            "uuid": "51f4c534-7f89-4033-9609-46576a993070",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "51f4c534-7f89-4033-9609-46576a993070"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 60781,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}

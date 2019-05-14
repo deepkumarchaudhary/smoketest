@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-05-10T20:14:11.440Z",
+    "end": "2019-05-10T20:16:40.995Z",
+    "duration": 149555,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "f9be2977-8139-4830-b68e-097821644334",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "b57b1fdd-1347-453f-80bb-40760d73e5f8",
+        "title": "Dockable Panel should ",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Dockable Panel option: To verify user able to view Dockable Panel options",
+            "fullTitle": "Dockable Panel should  Dockable Panel option: To verify user able to view Dockable Panel options",
+            "duration": 146332,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "//Create SiteRoot\ncy.wait(_locators.default.wait);\ncy.get('.module.content').should('be.visible').click({\n  force: true\n});\ncy.wait(_locators.default.wait); //Open File Menu and check New->Sub menu items are displaying\nMenuPageObject.clickMenuItem(menuItemFile);\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('New').trigger('mouseover').should('be.visible');\ncy.wait(_locators.default.shortWait);\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Site Root').trigger('mousemove');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Site Root').click({\n  force: true\n}); // The Create Site Root prompt should come up.\ncy.log('**The Create Site Root prompt should come up.**');\ncy.get('p-header').should('have.text', 'Create Site Root '); // Enter New site root name in textbox\ncy.log('**Enter New site root name in textbox**');\ncy.get('#siteRootInput').should('be.visible').trigger('click'); // Text should be in the text box.\ncy.log('**Text should be in the text box.**');\ncy.get('#siteRootInput').type(siteRootName); // Click on Install Component Project using Component Library 2.1 checkbox\ncy.log('**Click on Install Component Project using Component Library 2.1 checkbox**');\ncy.get('div.checkbox').should('be.visible');\ncy.get('div.checkbox').children('label').should('have.text', 'Install Component Project using Component Library 2.1');\ncy.get('div.checkbox').click(); // A check mark should appear in the box and two more options should appear\ncy.log('**A check mark should appear in the box and two more options should appear**');\ncy.get('.checkbox.ng-star-inserted').should('have.length', 2);\ncy.get('.checkbox.ng-star-inserted > label').first().should('have.text', 'Install Samples');\ncy.get('.checkbox.ng-star-inserted > label').first().children('input').should('be.checked');\ncy.get('.checkbox.ng-star-inserted > label').last().should('have.text', 'Rebuild Site After Creation ');\ncy.get('.checkbox.ng-star-inserted > label').last().children('input').should('be.checked'); // Click on save button\ncy.log('**Click on save button**');\ncy.get('.ui-dialog-footer').should('be.visible').children('p-footer').children('button').last().click({\n  force: true\n}); // A notification should come up stating that the Site Root is created.\ncy.log('**A notification should come up stating that the Site Root is created.**');\ncy.get(_locators.default.toastNotificationMessage).should('have.text', 'Created site root ' + siteRootName + '.');\nMenuPageObject.clickMenuItem(menuItem);\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('File View').should('be.visible');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Information').should('be.visible');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Conversation').should('be.visible');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Content Blocks').should('be.visible');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Digital Asset Management').should('be.visible');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('WCO Targeting').should('be.visible');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('WCO Reporting').should('be.visible');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('WCO Testing').should('be.visible');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Digital Quality Management').should('be.visible');\ncy.get(_locators.default.modelOptionInSubMenu_lnk).contains('Properties').should('be.visible'); //To verify the File view option under dockable panel (File View option in Dockable Panel)\ncy.log('**File View option in Dockable Panel**');\nUtilityHelper.verifyDockablepanelPresence('File View'); //To verify that user can add File view panel (Add File View panel)\ncy.log('**Add File View panel**');\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'File View', _locators.default.dockablePanelFile_tab); //Search for created SiteRoot and open it\nUtilityHelper.searchSiteRoot(siteRootName, _locators.default.shortWait); //To verify the Information option under dockable panel (Information option in Dockable Panel)\ncy.log('**Information option in Dockable Panel**');\nMenuPageObject.clickMenuItem(menuItem);\nUtilityHelper.verifyDockablepanelPresence('Information'); //To verify that user can add Info panel (Add Information panel)\ncy.log('**Add Information panel**'); // MenuPageObject.clickMenuItem(menuItem);\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'Information', _locators.default.dockablePanelInformation_tab); //To verify the Conversation option under dockable panel (Conversation option in Dockable Panel)\ncy.log('**Conversation option in Dockable Panel**');\nMenuPageObject.clickMenuItem(menuItem);\nUtilityHelper.verifyDockablepanelPresence('Conversation');\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels'); //To verify that user can add Conversation panel (Add Conversation panel)\n//MenuPageObject.clickMenuItem(menuItem);\ncy.log('**Add Conversation panel**');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'File View', _locators.default.dockablePanelFile_tab);\ncy.wait(_locators.default.shortWait);\nUtilityHelper.searchSiteRoot(siteRootName, _locators.default.wait);\ncy.get('.assetLabelLink.ng-binding').contains(siteRootName).should('be.visible');\ncy.wait(_locators.default.shortWait);\ncy.get('.assetLabelLink.ng-binding').contains(siteRootName).trigger('dblclick');\ncy.wait(_locators.default.shortWait);\ncy.get('.assetLabelLink.ng-binding').contains('Demo Page').should('be.visible').trigger('dblclick'); // cy.get('#panelContainerDrag-conversations-panel-widget').contains('Conversation').trigger('click');\nMenuPageObject.clickMenuItem(menuItem);\nUtilityHelper.verifyDockablepanelPresence('Conversation');\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'Conversation', _locators.default.dockablePanelConversations_tab); //To verify that user can add any message within the Conversation panel for the previewed asset (Message in Conversation Panel)\ncy.log('**Message in Conversation Panel**');\ncy.wait(_locators.default.shortWait);\ncy.get('.input-message-footer > .ng-pristine').click({\n  force: true\n});\ncy.get('.input-message-footer > .ng-pristine').type('Hello{enter}', {\n  force: true\n}); //cy.get('.conversations-body.ng-binding').contains('Hello').should('be.true'); need to check\ncy.get('div.conversations-body.ng-binding').should('have.text', 'Hello'); //To verify the Content blocks option under dockable panel (Content Blocks option in Dockable Panel)\nMenuPageObject.clickMenuItem(menuItem);\nUtilityHelper.verifyDockablepanelPresence('Content Blocks'); //To verify that user can add Conversation panel (Add Conversation panel)\ncy.log('**Add Conversation panel**');\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'Content Blocks', _locators.default.dockablePanelContentBlock_tab); //To verify the Digital Asset Management option under dockable panel (Digital Asset Management option in Dockable Panel)\nMenuPageObject.clickMenuItem(menuItem);\ncy.log('**Digital Asset Management option in Dockable Panel**');\nUtilityHelper.verifyDockablepanelPresence('Digital Asset Management'); //To verify that user can add DAM panel (Add DAM panel)\ncy.log('**Add Digital Asset Management panel**');\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'Digital Asset Management', _locators.default.dockablePanelDigitalAssetManagement_tab); //To verify the WCO Targeting option under dockable panel (WCO Targeting option in Dockable Panel)\nMenuPageObject.clickMenuItem(menuItem);\ncy.log('**WCO Targeting option in Dockable Panel**');\nUtilityHelper.verifyDockablepanelPresence('WCO Targeting'); //To verify that user can add WCO Targeting (Add WCO Targeting  panel)\ncy.log('**Add WCO Targeting panel**');\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'WCO Targeting', _locators.default.dockablePanelWCOTargeting_tab); //To verify the WCO Reporting option under dockable panel (WCO Reporting option in Dockable Panel)\nMenuPageObject.clickMenuItem(menuItem);\ncy.log('**WCO Reporting option in Dockable Panel**');\nUtilityHelper.verifyDockablepanelPresence('WCO Reporting'); //To verify that user can add WCO Reporting (Add WCO Reporting  panel)\ncy.log('**Add WCO Reporting panel**');\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'WCO Reporting', _locators.default.dockablePanelWCOReporting_tab); //To verify the WCO Testing option under dockable panel (WCO Testing option in Dockable Panel)\nMenuPageObject.clickMenuItem(menuItem);\ncy.log('**WCO Testing option in Dockable Panel**');\nUtilityHelper.verifyDockablepanelPresence('WCO Testing'); //To verify that user can add WCO Testing (Add WCO Testing  panel)\ncy.log('**Add WCO Testing panel**');\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'WCO Testing', _locators.default.dockablePanelWCOTesting_tab); //To verify the Digital Quality Management option under dockable panel (Digital Quality Management option in Dockable Panel)\nMenuPageObject.clickMenuItem(menuItem);\ncy.log('**Digital Quality Management option in Dockable Panel**');\nUtilityHelper.verifyDockablepanelPresence('Digital Quality Management'); //To verify that user can add WCO Digital Quality Management (Add Digital Quality Management  panel)\ncy.log('**Add Digital Quality Management panel**');\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'Digital Quality Management', _locators.default.dockablePanelDigitalQualityManagement_tab); //To verify the Properties option in Dockable Panel option under dockable panel (Properties option in Dockable Panel option in Dockable Panel)\nMenuPageObject.clickMenuItem(menuItem);\ncy.log('**Properties option in Dockable Panel option in Dockable Panel**');\nUtilityHelper.verifyDockablepanelPresence('Properties'); //To verify that user can add Properties Panel (Add Properties  panel)\ncy.log('**Add Properties panel**');\ncy.get(_locators.default.dockablePanel_lbl).should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'Properties', _locators.default.dockablePanelProperties_tab);\ncy.wait(_locators.default.wait);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "1ba04fd8-08aa-4ca4-8eca-ea77e4eb8c47",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "1ba04fd8-08aa-4ca4-8eca-ea77e4eb8c47"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 146332,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}
