@@ -1,7 +1,7 @@
 # https://www.appveyor.com/docs/lang/nodejs-iojs/
 # Test against the latest version of this Node.js version
-#environment:
- # nodejs_version: "10"
+environment:
+   nodejs_version: "10"
 
 # Install scripts. (runs after repo cloning)
 install:
@@ -22,6 +22,7 @@ install:
   - npm i -g bin-up
   #npx installation
   - npm install -g npx  
+  - npx --version
 cache:
   # cache NPM packages and Cypress binary
   # https://www.appveyor.com/docs/build-cache/
@@ -34,9 +35,8 @@ cache:
   # using APPVEYOR_SAVE_CACHE_ON_ERROR: true environment variable
 
 #-----Disabled for a time being
-test_script:
-#  - npm run test:ci:windows
-- npm run test
+#test_script:
+#  - npm run test
 
 #---generate report in html formate
 #npx mochawesome-merge — reportDir ./mochawesome-report > mochawesome-report/outputcombined.json
