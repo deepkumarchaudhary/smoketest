@@ -40,7 +40,8 @@ cache:
 #test_script:
 #  - npm run test
 #npm install mochawesome-merge --save-dev
-- npm install mochawesome --save-dev
+#- npm install mochawesome --save-dev
+- npm install mochawesome-merge --save-dev
 
 #---generate report in html formate
 #mochawesome-merge — reportDir mochawesome-report > mochawesome-report/output.json
