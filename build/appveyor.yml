@@ -2,7 +2,6 @@
 # Test against the latest version of this Node.js version
 environment:
    nodejs_version: "10"
-
 # Install scripts. (runs after repo cloning)
 install:
   - ps: Install-Product node $env:nodejs_version
@@ -25,7 +24,7 @@ install:
   #npx installation
   - npm install -g npx  
   - npx --version
-  #- npm install mochawesome-merge --save-dev
+  - npm install mochawesome-merge --save-dev
   
   cache:
   # cache NPM packages and Cypress binary
