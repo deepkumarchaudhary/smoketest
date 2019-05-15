@@ -32,7 +32,7 @@ install:
   # https://docs.npmjs.com/files/folders.html#cache
   # https://on.cypress.io/caching
   #- '%AppData%\npm-cache'
- # - '%USERPROFILE%\AppData\Local\Cypress\Cache'
+  #- '%USERPROFILE%\AppData\Local\Cypress\Cache'
   # Note: by default cache is only saved for successful builds
   # you can save cache from the failed builds
   # using APPVEYOR_SAVE_CACHE_ON_ERROR: true environment variable
@@ -47,7 +47,7 @@ install:
 #---generate report in html formate
 #- npm mochawesome-merge --reportDir 'C:/projects/smoketest/mochawesome-report' > mochawesome-report/output.json
 #mochawesome-merge — reportDir mochawesome-report > mochawesome-report/output.json
- - mochawesome-merge — reportDir 'C:\projects\smoketest\mochawesome-report' > mochawesome-report/outputcombined.json
+ - npx mochawesome-merge — reportDir 'C:\projects\smoketest\mochawesome-report' > mochawesome-report/outputcombined.json
 #npx mochawesome-report-generator 'C:\projects\smoketest\mochawesome-report\outputcombined.json'
 
 # Don't actually build, we are only interested in tests
