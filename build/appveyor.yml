@@ -42,7 +42,7 @@ cache:
 npm install mochawesome-merge --save-dev
 
 #---generate report in html formate
-mochawesome-merge — reportDir mochawesome-report > mochawesome-report/output.json
+#mochawesome-merge — reportDir mochawesome-report > mochawesome-report/output.json
 #npx mochawesome-merge — reportDir 'C:\projects\smoketest\mochawesome-report' > mochawesome-report/outputcombined.json
 #npx mochawesome-report-generator 'C:\projects\smoketest\mochawesome-report\outputcombined.json'
 
