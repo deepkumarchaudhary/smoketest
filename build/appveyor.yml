@@ -17,7 +17,7 @@ install:
   - ls '%USERPROFILE%\AppData\Local\Cypress\Cache' || true
   - ls 'C:\projects\smoketest' || true
   - ls 'C:\projects\smoketest\mochawesome-report' || true
-  #- npm ci
+  - npm ci
   # install global bin-up
   # to avoid problems with finding tool paths on Windows
   - npm i -g bin-up
@@ -38,8 +38,8 @@ cache:
   # using APPVEYOR_SAVE_CACHE_ON_ERROR: true environment variable
 
 #-----Disabled for a time being
-#test_script:
-#  - npm run test
+test_script:
+  - npm run test
 #npm install mochawesome-merge --save-dev
 #- npm install mochawesome --save-dev
 
