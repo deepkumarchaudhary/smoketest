@@ -41,7 +41,7 @@ cache:
 #  - npm run test
 
 #---generate report in html formate
-npx mochawesome-merge — reportDir ./mochawesome-report > mochawesome-report/outputcombined.json
+npx mochawesome-merge — reportDir mochawesome-report > mochawesome-report/output.json
 #npx mochawesome-merge — reportDir 'C:\projects\smoketest\mochawesome-report' > mochawesome-report/outputcombined.json
 #npx mochawesome-report-generator 'C:\projects\smoketest\mochawesome-report\outputcombined.json'
 
