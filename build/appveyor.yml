@@ -27,7 +27,7 @@ install:
   - npx --version
   - npm install mochawesome-merge --save-dev
   
-  mochawesome-merge --reportDir 'C:\projects\smoketest\mochawesome-report' > output.json
+  mochawesome-merge --reportDir 'C:/projects/smoketest/mochawesome-report' > mochawesome-report/output.json
   
   cache:
   # cache NPM packages and Cypress binary
