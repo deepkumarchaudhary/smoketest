@@ -25,14 +25,14 @@ install:
   - npm install -g npx  
   - npx --version
   - npm install mochawesome-merge --save-dev
-  
-  #cache:
+ 
+ cache:
   # cache NPM packages and Cypress binary
   # https://www.appveyor.com/docs/build-cache/
   # https://docs.npmjs.com/files/folders.html#cache
   # https://on.cypress.io/caching
-  #- '%AppData%\npm-cache'
-  #- '%USERPROFILE%\AppData\Local\Cypress\Cache'
+  - '%AppData%\npm-cache'
+  - '%USERPROFILE%\AppData\Local\Cypress\Cache'
   # Note: by default cache is only saved for successful builds
   # you can save cache from the failed builds
   # using APPVEYOR_SAVE_CACHE_ON_ERROR: true environment variable
