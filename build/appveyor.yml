@@ -26,6 +26,7 @@ install:
   - npm install -g npx  
   - npx --version
   - npm install mochawesome-merge --save-dev
+  - mochawesome-merge --version
 cache:
   # cache NPM packages and Cypress binary
   # https://www.appveyor.com/docs/build-cache/
