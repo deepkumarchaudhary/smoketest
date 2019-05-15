@@ -25,6 +25,7 @@ install:
   #npx installation
   - npm install -g npx  
   - npx --version
+  - npm install mochawesome-merge --save-dev
 cache:
   # cache NPM packages and Cypress binary
   # https://www.appveyor.com/docs/build-cache/
@@ -41,7 +42,7 @@ cache:
 #  - npm run test
 #npm install mochawesome-merge --save-dev
 #- npm install mochawesome --save-dev
-- npm install mochawesome-merge --save-dev
+
 
 #---generate report in html formate
 #mochawesome-merge — reportDir mochawesome-report > mochawesome-report/output.json
