@@ -10,7 +10,7 @@ var testCaseName = '';
 const menuItem = 'View';
 const siteRootName = 'AutoSiteRoot';
 
-describe("DAM should ", () => {
+xdescribe("DAM should ", () => {
     before(() => {
         UtilityHelper.loginCrownpeak();
     });
