@@ -1,5 +1,4 @@
-{
-  "baseUrl": "https://intr1.cprd.io/snoop/V3/#",
+{ "baseUrl": "https://intr1.cprd.io/Snoop/V3/#/login",
   "reporter": "mochawesome",
   "reporterOptions": {
     "mochaFile": "results/my-test-output-[hash].xml",
@@ -9,8 +8,7 @@
   },
   "viewportWidth": 1024,
   "viewportHeight": 500,
-  "requestTimeout": 3600000,
-  "responseTimeout": 3600000,
+  "requestTimeout": 3600000, "responseTimeout": 3600000,
   "chromeWebSecurity": false,
   "numTestsKeptInMemory": 0
 }
