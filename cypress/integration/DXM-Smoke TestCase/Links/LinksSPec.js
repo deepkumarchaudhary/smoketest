@@ -11,7 +11,7 @@ var testCaseName = '';
 const menuItem = 'File';
 const subMenuItem = 'New';
 
-describe("Links: To check all available links are clickable and opening properly ", () => {
+xdescribe("Links: To check all available links are clickable and opening properly ", () => {
     before(() => {
         UtilityHelper.loginCrownpeak();
     });
