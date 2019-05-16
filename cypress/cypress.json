@@ -1,0 +1,7 @@
+
+{
+   "baseUrl": "https://intr1.cprd.io",
+   "requestTimeout": 3600000, "responseTimeout": 3600000,
+   "chromeWebSecurity": false,
+   "numTestsKeptInMemory": 0
+}
