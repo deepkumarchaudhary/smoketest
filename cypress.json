@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://cms2.crownpeak.net/QAAdventGeneral1/",
+  "baseUrl": "https://intr1.cprd.io/snoop/",
   "reporter": "mochawesome",
   "reporterOptions": {
     "mochaFile": "results/my-test-output-[hash].xml",
