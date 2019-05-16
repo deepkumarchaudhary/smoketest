@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://intr1.cprd.io/snoop/",
+  "baseUrl": "https://intr1.cprd.io/snoop/V3/#",
   "reporter": "mochawesome",
   "reporterOptions": {
     "mochaFile": "results/my-test-output-[hash].xml",
