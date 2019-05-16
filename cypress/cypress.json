@@ -1,6 +1,6 @@
 
 {
-   "baseUrl": "https://rc.crownpeak.com/snoop/",
+   "baseUrl": "https://cms2.crownpeak.net/QAAdventGeneral1/",
    "requestTimeout": 3600000, "responseTimeout": 3600000,
    "chromeWebSecurity": false,
    "numTestsKeptInMemory": 0
