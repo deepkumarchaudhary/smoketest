@@ -5,8 +5,8 @@ export default {
     //url: 'https://intr1.cprd.io/Snoop/V3/#/login',
     
     // Constant/Variables
-    usernameInput: 'smokeqa2',
-    passwordInput: 'Password1@',
+    usernameInput: 'user1',
+    passwordInput: 'Password1!',
     dbConnectionTruthy: true,
     // https://cms2.crownpeak.net/QAAdventGeneral1/
     // https://intr1.cprd.io/
