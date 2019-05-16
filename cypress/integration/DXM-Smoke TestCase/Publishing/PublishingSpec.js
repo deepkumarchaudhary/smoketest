@@ -19,7 +19,7 @@ const SiteRootName = 'Auto_SiteRoot_' + UtilityHelper.randomNumber();
 const imageName = 'boat cove.jpg';
 const WisywigFileName = 'Wisywig_Asset'
 
-describe("Publishing should ", () => {
+xdescribe("Publishing should ", () => {
 
     beforeEach(function () {
         UtilityHelper.loginCrownpeak();
