@@ -1,7 +1,8 @@
 export default {
     //Crownpeak URL under test
     //url: 'https://rc.crownpeak.com/Snoop/V3/#/login',
-    url: 'https://cms2.crownpeak.net/QAAdventGeneral1/V3/#/login',
+    //url: 'https://cms2.crownpeak.net/QAAdventGeneral1/V3/#/login',
+    url: 'https://intr1.cprd.io/Snoop/V3/#/login',
     
     // Constant/Variables
     usernameInput: 'smokeqa2',
@@ -9,7 +10,8 @@ export default {
     dbConnectionTruthy: true,
     // https://cms2.crownpeak.net/QAAdventGeneral1/
     // https://intr1.cprd.io/
-    originHeader: 'https://rc.crownpeak.com',
+    //originHeader: 'https://rc.crownpeak.com',
+    originHeader: 'https://intr1.cprd.io/',
     
  
     // Wait Categories (Time in milliseconds)
