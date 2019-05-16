@@ -15,7 +15,7 @@ const menuItemFile = 'File';
 const randomNumber = UtilityHelper.randomNumber();
 const siteRootName = 'Auto_SiteRoot_ ' + UtilityHelper.randomNumber();
 
-describe("Dockable Panel should ", () => {
+xdescribe("Dockable Panel should ", () => {
   before(() => {
     UtilityHelper.loginCrownpeak();
   });
