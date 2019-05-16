@@ -1,6 +1,7 @@
 export default {
     //Crownpeak URL under test
-    url: 'https://rc.crownpeak.com/Snoop/V3/#/login',
+    //url: 'https://rc.crownpeak.com/Snoop/V3/#/login',
+    url: 'https://cms2.crownpeak.net/QAAdventGeneral1/V3/#/login',
     
     // Constant/Variables
     usernameInput: 'smokeqa2',
