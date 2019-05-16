@@ -1,0 +1,80 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-05-16T17:19:17.635Z",
+    "end": "2019-05-16T17:20:23.210Z",
+    "duration": 65575,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "danger",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "17721c71-6cd4-4728-9957-d3be0a4ea7ad",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "32b6b218-e3dc-4013-b681-828fe568b003",
+        "title": "DAM should ",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "DAM: To check digital asset management functionality ",
+            "fullTitle": "DAM should  DAM: To check digital asset management functionality ",
+            "duration": 53851,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "cy.log('**Open Asset **');\ncy.wait(_locators.default.mediumWait);\ncy.get('div[title=\\'Content\\']').click();\nMenuPageObject.clickMenuItem(menuItem);\ncy.get('span.dockable').should('have.text', 'Dockable Panels');\nUtilityHelper.toggleViewSubMenuItem(menuItem, 'File View', _locators.default.dockablePanelFile_tab);\ncy.wait(_locators.default.wait); //cy.get('fa fa-times').trigger('click')\ncy.get('[ng-click=\"vm.toggleSearchDropdown(true)\"] > cp-svg').click();\ncy.get('[placeholder=\"Label\"]').click();\ncy.get('[placeholder=\"Label\"]').clear();\ncy.get('[placeholder=\"Label\"]').type(_locators.default.folderName);\ncy.get('.btn-primary').click();\ncy.wait(_locators.default.wait);\ncy.get('.assetLabelLink.ng-binding').contains(_locators.default.folderName).should('be.visible');\ncy.wait(_locators.default.wait);\ncy.get('.assetLabelLink.ng-binding').contains(_locators.default.folderName).trigger('dblclick');\ncy.wait(_locators.default.wait);\ncy.log('**Action: Select Publishing Test.. **');",
+            "err": {
+              "message": "CypressError: Timed out retrying: Expected to find element: '[ng-click=\"vm.toggleSearchDropdown(true)\"] > cp-svg', but never found it.",
+              "estack": "CypressError: Timed out retrying: Expected to find element: '[ng-click=\"vm.toggleSearchDropdown(true)\"] > cp-svg', but never found it.\n    at Object.cypressErr (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:82944:11)\n    at Object.throwErr (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:82909:18)\n    at Object.throwErrByPath (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:82936:17)\n    at retry (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:76454:16)\n    at https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:68529:18\n    at tryCatcher (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:131381:23)\n    at Promise._settlePromiseFromHandler (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:129399:31)\n    at Promise._settlePromise (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:129456:18)\n    at Promise._settlePromise0 (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:129501:10)\n    at Promise._settlePromises (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:129576:18)\n    at Async._drainQueue (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:126305:16)\n    at Async._drainQueues (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:126315:10)\n    at Async.drainQueues (https://cms2.crownpeak.net/__cypress/runner/cypress_runner.js:126189:14)\n    at <anonymous>"
+            },
+            "isRoot": false,
+            "uuid": "b5ccc25b-4bdf-4763-afbd-cf528b8a583c",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [
+          "b5ccc25b-4bdf-4763-afbd-cf528b8a583c"
+        ],
+        "pending": [],
+        "skipped": [],
+        "duration": 53851,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}
