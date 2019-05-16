@@ -10,5 +10,6 @@
   "viewportHeight": 500,
   "requestTimeout": 3600000, "responseTimeout": 3600000,
   "chromeWebSecurity": false,
-  "numTestsKeptInMemory": 0
+  "numTestsKeptInMemory": 0,
+  "video": false
 }
