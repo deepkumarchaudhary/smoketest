@@ -14,7 +14,7 @@ const menuItem = 'File';
 const subMenuItem = 'New';
 
 
-describe("Reports should ", () => {
+xdescribe("Reports should ", () => {
     before(() => {
         UtilityHelper.loginCrownpeak();
     });
