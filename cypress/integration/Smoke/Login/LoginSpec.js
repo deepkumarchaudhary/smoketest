@@ -7,7 +7,7 @@ var expectedForgotText = 'Enter the Username that you use to access your account
 // Category of the test case to be inserted in Database
 const testCategory = "Login";
 
-xdescribe("Login should ", () => {
+describe("Login should ", () => {
     const UtilityHelper = new UtilityClass();
 
     beforeEach(function () {
