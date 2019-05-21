@@ -6,7 +6,8 @@
     "mochaFile": "results/my-test-output-[hash].xml",
     "html": true,
     "json": true,
-    "overwrite": false
+    "overwrite": false,
+    "video": false
   },
   "viewportWidth": 1024,
   "viewportHeight": 500,
