@@ -23,7 +23,7 @@ const siteRootName = 'AutoSiteRoot_ ' + UtilityHelper.randomNumber();
 const templateFolderName = 'AutoTemplateFolder ' + UtilityHelper.randomNumber();
 
 
-describe("Site root should ", () => {
+xdescribe("Site root should ", () => {
     before(() => {
         UtilityHelper.loginCrownpeak();
     });
