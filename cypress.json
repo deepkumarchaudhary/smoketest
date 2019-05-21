@@ -6,8 +6,7 @@
     "mochaFile": "results/my-test-output-[hash].xml",
     "html": true,
     "json": true,
-    "overwrite": false,
-    "video": false
+    "overwrite": false
   },
   "viewportWidth": 1024,
   "viewportHeight": 500,
@@ -15,5 +14,6 @@
   "responseTimeout": 3600000,
   "chromeWebSecurity": false,
   "numTestsKeptInMemory": 0,
-  "defaultCommandTimeout":150000
+  "defaultCommandTimeout":150000,
+  "Video": false
 }
