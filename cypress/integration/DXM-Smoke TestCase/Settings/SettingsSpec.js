@@ -11,7 +11,7 @@ const testCategory = "Login";
 var testCaseName = '';
 const menuItem = 'File';
 const subMenuItem = 'New';
-describe("Settings should ", () => {
+xdescribe("Settings should ", () => {
     before(() => {
         UtilityHelper.loginCrownpeak();
     });
