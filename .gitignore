@@ -1,0 +1,5 @@
+cypress-project/cypress/screenshots/**/*.*
+cypress-project/cypress/videos/**/*.*
+*.mp4
+*.png
+*.xml
