@@ -1,0 +1,45 @@
+{
+  "uid" : "1f342485bf5f8b6e",
+  "name" : "Login with correct password: Enter the correct Username and Password for your admin account",
+  "fullName" : "Login should .Login with correct password: Enter the correct Username and Password for your admin account",
+  "historyId" : "abcdd578ce9097916b89f5f2f0bdf02f",
+  "time" : {
+    "start" : 1558111939986,
+    "stop" : 1558111957473,
+    "duration" : 17487
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login should "
+  }, {
+    "name" : "testClass",
+    "value" : "Login should "
+  }, {
+    "name" : "testMethod",
+    "value" : "Login with correct password: Enter the correct Username and Password for your admin account"
+  }, {
+    "name" : "package",
+    "value" : "Login should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f342485bf5f8b6e.json",
+  "parameterValues" : [ ]
+}

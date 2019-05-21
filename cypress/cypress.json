@@ -1,7 +1,9 @@
 
 {
-   "baseUrl": "https://intr1.cprd.io",
+   "baseUrl": "https://intr1.cprd.io/Snoop/",
    "requestTimeout": 3600000, "responseTimeout": 3600000,
    "chromeWebSecurity": false,
-   "numTestsKeptInMemory": 0
+   "numTestsKeptInMemory": 0,
+  "defaultCommandTimeout":150000
+
 }

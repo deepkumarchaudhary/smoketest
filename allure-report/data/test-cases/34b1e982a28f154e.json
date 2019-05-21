@@ -1,0 +1,45 @@
+{
+  "uid" : "34b1e982a28f154e",
+  "name" : "Product Feedback: To verify the navigation on clicking Product feedback under the User icon",
+  "fullName" : "Links: To check all available links are clickable and opening properly .Product Feedback: To verify the navigation on clicking Product feedback under the User icon",
+  "historyId" : "6a9d0539898e80aa69161a5ba5ed9e3",
+  "time" : {
+    "start" : 1558111744022,
+    "stop" : 1558111750876,
+    "duration" : 6854
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "Product Feedback: To verify the navigation on clicking Product feedback under the User icon"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34b1e982a28f154e.json",
+  "parameterValues" : [ ]
+}

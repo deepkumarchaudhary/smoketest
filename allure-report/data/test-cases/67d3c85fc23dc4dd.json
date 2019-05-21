@@ -1,0 +1,45 @@
+{
+  "uid" : "67d3c85fc23dc4dd",
+  "name" : "To verify the page displayed after login to application: Observe the page loaded upon login",
+  "fullName" : "Login should .To verify the page displayed after login to application: Observe the page loaded upon login",
+  "historyId" : "791328b470503ca3c6f0a6a60de10b9b",
+  "time" : {
+    "start" : 1558111957496,
+    "stop" : 1558111959152,
+    "duration" : 1656
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login should "
+  }, {
+    "name" : "testClass",
+    "value" : "Login should "
+  }, {
+    "name" : "testMethod",
+    "value" : "To verify the page displayed after login to application: Observe the page loaded upon login"
+  }, {
+    "name" : "package",
+    "value" : "Login should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67d3c85fc23dc4dd.json",
+  "parameterValues" : [ ]
+}

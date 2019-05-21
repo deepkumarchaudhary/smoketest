@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558111525191' stop='1558111589989'>
+    <name>Asset should </name>
+    <title>Asset should </title>
+    <test-cases>
+        <test-case start='1558111535341' status='passed' stop='1558111589960'>
+            <name>Asset creation: To verify user able to create using customized template</name>
+            <title>Asset creation: To verify user able to create using customized template</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

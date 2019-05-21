@@ -1,0 +1,45 @@
+{
+  "uid" : "2d8a424c99f31dfc",
+  "name" : "Close browser windows and return to V3 Clone: To verify the case when user returns to login page and Release Notes & Privacy browser windows are closed",
+  "fullName" : "Login should .Close browser windows and return to V3 Clone: To verify the case when user returns to login page and Release Notes & Privacy browser windows are closed",
+  "historyId" : "bfd2ca4ab657026c10c7c69e9435c1ac",
+  "time" : {
+    "start" : 1558111934325,
+    "stop" : 1558111935707,
+    "duration" : 1382
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login should "
+  }, {
+    "name" : "testClass",
+    "value" : "Login should "
+  }, {
+    "name" : "testMethod",
+    "value" : "Close browser windows and return to V3 Clone: To verify the case when user returns to login page and Release Notes & Privacy browser windows are closed"
+  }, {
+    "name" : "package",
+    "value" : "Login should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d8a424c99f31dfc.json",
+  "parameterValues" : [ ]
+}

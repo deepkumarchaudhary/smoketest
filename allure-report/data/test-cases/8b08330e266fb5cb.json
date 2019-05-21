@@ -1,0 +1,45 @@
+{
+  "uid" : "8b08330e266fb5cb",
+  "name" : "Logout: To verify the Log out option under User",
+  "fullName" : "Links: To check all available links are clickable and opening properly .Logout: To verify the Log out option under User",
+  "historyId" : "f369a1095f902d1ac2494a3d1e57cf5f",
+  "time" : {
+    "start" : 1558111791438,
+    "stop" : 1558111828223,
+    "duration" : 36785
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "Logout: To verify the Log out option under User"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b08330e266fb5cb.json",
+  "parameterValues" : [ ]
+}

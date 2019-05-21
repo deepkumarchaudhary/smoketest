@@ -1,0 +1,45 @@
+{
+  "uid" : "f4a6fbdd50646549",
+  "name" : "WCO (1): To verify the navigation on  WCO icon from the left menu",
+  "fullName" : "Links: To check all available links are clickable and opening properly .WCO (1): To verify the navigation on  WCO icon from the left menu",
+  "historyId" : "5cdfb93ba26eb97ca437bef6d9e39508",
+  "time" : {
+    "start" : 1558111784697,
+    "stop" : 1558111791420,
+    "duration" : 6723
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "WCO (1): To verify the navigation on  WCO icon from the left menu"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4a6fbdd50646549.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "ef59c7d4af4ee541",
+  "name" : "Asset creation: To verify user able to create using customized template",
+  "fullName" : "Asset should .Asset creation: To verify user able to create using customized template",
+  "historyId" : "f7534a9c0fece1df70e12165f0192d47",
+  "time" : {
+    "start" : 1558111535341,
+    "stop" : 1558111589960,
+    "duration" : 54619
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Asset should "
+  }, {
+    "name" : "testClass",
+    "value" : "Asset should "
+  }, {
+    "name" : "testMethod",
+    "value" : "Asset creation: To verify user able to create using customized template"
+  }, {
+    "name" : "package",
+    "value" : "Asset should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef59c7d4af4ee541.json",
+  "parameterValues" : [ ]
+}

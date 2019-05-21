@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558111675039' stop='1558111828250'>
+    <name>Links: To check all available links are clickable and opening properly </name>
+    <title>Links: To check all available links are clickable and opening properly </title>
+    <test-cases>
+        <test-case start='1558111691237' status='passed' stop='1558111723065'>
+            <name>HelpIcon: To verify the navigation on clicking Help icon from left menu</name>
+            <title>HelpIcon: To verify the navigation on clicking Help icon from left menu</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111723115' status='passed' stop='1558111730157'>
+            <name>Customer Documents: To verify the Customer Documents tab (if applicable)</name>
+            <title>Customer Documents: To verify the Customer Documents tab (if applicable)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111730177' status='passed' stop='1558111737048'>
+            <name>Contact Support tab: To verify the Contact Support tab</name>
+            <title>Contact Support tab: To verify the Contact Support tab</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111737069' status='passed' stop='1558111743994'>
+            <name>Debug tab: To verify the Debug tab</name>
+            <title>Debug tab: To verify the Debug tab</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111744022' status='passed' stop='1558111750876'>
+            <name>Product Feedback: To verify the navigation on clicking Product feedback under the User icon</name>
+            <title>Product Feedback: To verify the navigation on clicking Product feedback under the User icon</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111750904' status='passed' stop='1558111757533'>
+            <name>Support: To verify the navigation on clicking Support under the User icon</name>
+            <title>Support: To verify the navigation on clicking Support under the User icon</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111757558' status='passed' stop='1558111764172'>
+            <name>Help: To verify the navigation on clicking Help under User icon</name>
+            <title>Help: To verify the navigation on clicking Help under User icon</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111764191' status='passed' stop='1558111770964'>
+            <name>Theme: To verify the option displayed on hovering theme link under User icon</name>
+            <title>Theme: To verify the option displayed on hovering theme link under User icon</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111770988' status='passed' stop='1558111778048'>
+            <name>Language: To verify the option displayed on hovering language link under User icon</name>
+            <title>Language: To verify the option displayed on hovering language link under User icon</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111778067' status='passed' stop='1558111784677'>
+            <name>Privacy link: To verify the Privacy link under User icon</name>
+            <title>Privacy link: To verify the Privacy link under User icon</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111784697' status='passed' stop='1558111791420'>
+            <name>WCO (1): To verify the navigation on  WCO icon from the left menu</name>
+            <title>WCO (1): To verify the navigation on  WCO icon from the left menu</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1558111791438' status='passed' stop='1558111828223'>
+            <name>Logout: To verify the Log out option under User</name>
+            <title>Logout: To verify the Log out option under User</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

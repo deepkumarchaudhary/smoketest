@@ -1,0 +1,45 @@
+{
+  "uid" : "3f6a23aab682ea1a",
+  "name" : "Debug tab: To verify the Debug tab",
+  "fullName" : "Links: To check all available links are clickable and opening properly .Debug tab: To verify the Debug tab",
+  "historyId" : "f0d0ac31a83c45f34cb9a8f98a951a69",
+  "time" : {
+    "start" : 1558111737069,
+    "stop" : 1558111743994,
+    "duration" : 6925
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "Debug tab: To verify the Debug tab"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f6a23aab682ea1a.json",
+  "parameterValues" : [ ]
+}

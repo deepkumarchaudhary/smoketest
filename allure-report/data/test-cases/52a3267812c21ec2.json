@@ -1,0 +1,45 @@
+{
+  "uid" : "52a3267812c21ec2",
+  "name" : "Help: To verify the navigation on clicking Help under User icon",
+  "fullName" : "Links: To check all available links are clickable and opening properly .Help: To verify the navigation on clicking Help under User icon",
+  "historyId" : "ae1b2b69fe01cd290b92bd29c8a0c401",
+  "time" : {
+    "start" : 1558111757558,
+    "stop" : 1558111764172,
+    "duration" : 6614
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "Help: To verify the navigation on clicking Help under User icon"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52a3267812c21ec2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "41c487c9b2353781",
+  "name" : "Forget Password Link: To verify the functionality of Forgot Password? link on the CMS Login screen",
+  "fullName" : "Login should .Forget Password Link: To verify the functionality of Forgot Password? link on the CMS Login screen",
+  "historyId" : "af59290daebf1b547ccceb5d4d6c577c",
+  "time" : {
+    "start" : 1558111899512,
+    "stop" : 1558111901314,
+    "duration" : 1802
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login should "
+  }, {
+    "name" : "testClass",
+    "value" : "Login should "
+  }, {
+    "name" : "testMethod",
+    "value" : "Forget Password Link: To verify the functionality of Forgot Password? link on the CMS Login screen"
+  }, {
+    "name" : "package",
+    "value" : "Login should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41c487c9b2353781.json",
+  "parameterValues" : [ ]
+}

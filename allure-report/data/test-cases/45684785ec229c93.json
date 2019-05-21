@@ -1,0 +1,45 @@
+{
+  "uid" : "45684785ec229c93",
+  "name" : "Customer Documents: To verify the Customer Documents tab (if applicable)",
+  "fullName" : "Links: To check all available links are clickable and opening properly .Customer Documents: To verify the Customer Documents tab (if applicable)",
+  "historyId" : "a2b6432749227835a688c67b437edd02",
+  "time" : {
+    "start" : 1558111723115,
+    "stop" : 1558111730157,
+    "duration" : 7042
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "Customer Documents: To verify the Customer Documents tab (if applicable)"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45684785ec229c93.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "cc1cca73e58618a6",
+  "name" : "Theme: To verify the option displayed on hovering theme link under User icon",
+  "fullName" : "Links: To check all available links are clickable and opening properly .Theme: To verify the option displayed on hovering theme link under User icon",
+  "historyId" : "4e73006830006aa55f5345c0879b1fd1",
+  "time" : {
+    "start" : 1558111764191,
+    "stop" : 1558111770964,
+    "duration" : 6773
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "Theme: To verify the option displayed on hovering theme link under User icon"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc1cca73e58618a6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558112434480' stop='1558112554664'>
+    <name>Settings should </name>
+    <title>Settings should </title>
+    <test-cases>
+        <test-case start='1558112444300' status='passed' stop='1558112554631'>
+            <name>.should() - login to v3 > navigate through reports > verify each settings</name>
+            <title>.should() - login to v3 > navigate through reports > verify each settings</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

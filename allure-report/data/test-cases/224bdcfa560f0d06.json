@@ -1,0 +1,45 @@
+{
+  "uid" : "224bdcfa560f0d06",
+  "name" : "Login with incorrect username: Enter the wrong Username and Password",
+  "fullName" : "Login should .Login with incorrect username: Enter the wrong Username and Password",
+  "historyId" : "c65cf56c534166a6a61f10251b6d4610",
+  "time" : {
+    "start" : 1558111937120,
+    "stop" : 1558111939965,
+    "duration" : 2845
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login should "
+  }, {
+    "name" : "testClass",
+    "value" : "Login should "
+  }, {
+    "name" : "testMethod",
+    "value" : "Login with incorrect username: Enter the wrong Username and Password"
+  }, {
+    "name" : "package",
+    "value" : "Login should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "224bdcfa560f0d06.json",
+  "parameterValues" : [ ]
+}

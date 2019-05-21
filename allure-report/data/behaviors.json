@@ -1,0 +1,341 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Asset creation: To verify user able to create using customized template",
+    "uid" : "ef59c7d4af4ee541",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111535341,
+      "stop" : 1558111589960,
+      "duration" : 54619
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DAM: To check digital asset management functionality ",
+    "uid" : "fbeaf63e78c37b87",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111611388,
+      "stop" : 1558111669432,
+      "duration" : 58044
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "HelpIcon: To verify the navigation on clicking Help icon from left menu",
+    "uid" : "5cd9151fc27609af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111691237,
+      "stop" : 1558111723065,
+      "duration" : 31828
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Customer Documents: To verify the Customer Documents tab (if applicable)",
+    "uid" : "45684785ec229c93",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111723115,
+      "stop" : 1558111730157,
+      "duration" : 7042
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contact Support tab: To verify the Contact Support tab",
+    "uid" : "2fb5ae507f4a8c99",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111730177,
+      "stop" : 1558111737048,
+      "duration" : 6871
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Debug tab: To verify the Debug tab",
+    "uid" : "3f6a23aab682ea1a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111737069,
+      "stop" : 1558111743994,
+      "duration" : 6925
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Product Feedback: To verify the navigation on clicking Product feedback under the User icon",
+    "uid" : "34b1e982a28f154e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111744022,
+      "stop" : 1558111750876,
+      "duration" : 6854
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Support: To verify the navigation on clicking Support under the User icon",
+    "uid" : "3b81205796679cb1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111750904,
+      "stop" : 1558111757533,
+      "duration" : 6629
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Help: To verify the navigation on clicking Help under User icon",
+    "uid" : "52a3267812c21ec2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111757558,
+      "stop" : 1558111764172,
+      "duration" : 6614
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Theme: To verify the option displayed on hovering theme link under User icon",
+    "uid" : "cc1cca73e58618a6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111764191,
+      "stop" : 1558111770964,
+      "duration" : 6773
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Language: To verify the option displayed on hovering language link under User icon",
+    "uid" : "792c1e29ea51b102",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111770988,
+      "stop" : 1558111778048,
+      "duration" : 7060
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Privacy link: To verify the Privacy link under User icon",
+    "uid" : "8e173e31e8cdafa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111778067,
+      "stop" : 1558111784677,
+      "duration" : 6610
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "WCO (1): To verify the navigation on  WCO icon from the left menu",
+    "uid" : "f4a6fbdd50646549",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111784697,
+      "stop" : 1558111791420,
+      "duration" : 6723
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout: To verify the Log out option under User",
+    "uid" : "8b08330e266fb5cb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111791438,
+      "stop" : 1558111828223,
+      "duration" : 36785
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "V3 Login: To verify that user navigation on hitting application url",
+    "uid" : "d857ca36926b1f68",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111833862,
+      "stop" : 1558111899487,
+      "duration" : 65625
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Forget Password Link: To verify the functionality of Forgot Password? link on the CMS Login screen",
+    "uid" : "41c487c9b2353781",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111899512,
+      "stop" : 1558111901314,
+      "duration" : 1802
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Back to login link: To verify the navigation of the user on clicking back to Login link",
+    "uid" : "41f19c2d8091c27a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111901329,
+      "stop" : 1558111932923,
+      "duration" : 31594
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Privacy Link: Verify the functionality of Privacy link on the CMS Login screen",
+    "uid" : "a1e516fe048e27ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111932940,
+      "stop" : 1558111934309,
+      "duration" : 1369
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Close browser windows and return to V3 Clone: To verify the case when user returns to login page and Release Notes & Privacy browser windows are closed",
+    "uid" : "2d8a424c99f31dfc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111934325,
+      "stop" : 1558111935707,
+      "duration" : 1382
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Release Notes link: To verify the Release Note link on the CMS Login screen",
+    "uid" : "ee4170103726d370",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111935723,
+      "stop" : 1558111937103,
+      "duration" : 1380
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with incorrect username: Enter the wrong Username and Password",
+    "uid" : "224bdcfa560f0d06",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111937120,
+      "stop" : 1558111939965,
+      "duration" : 2845
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with correct password: Enter the correct Username and Password for your admin account",
+    "uid" : "1f342485bf5f8b6e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111939986,
+      "stop" : 1558111957473,
+      "duration" : 17487
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "To verify the page displayed after login to application: Observe the page loaded upon login",
+    "uid" : "67d3c85fc23dc4dd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558111957496,
+      "stop" : 1558111959152,
+      "duration" : 1656
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Proceed to Folder, Branched Asset, Cloned Asset",
+    "uid" : "ed4e65149257c4c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1558111963681,
+      "stop" : 1558112355869,
+      "duration" : 392188
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : ".should() - login to v3 > navigate through reports > verify each reports url",
+    "uid" : "58f2fd521d0c3a6a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558112373962,
+      "stop" : 1558112430194,
+      "duration" : 56232
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".should() - login to v3 > navigate through reports > verify each settings",
+    "uid" : "a388220ca61466d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558112444300,
+      "stop" : 1558112554631,
+      "duration" : 110331
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Site root option: To verify user able to view site root option",
+    "uid" : "6e9f037a5312af3c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1558112570770,
+      "stop" : 1558112900641,
+      "duration" : 329871
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Dockable Panel option: To verify user able to view Dockable Panel options",
+    "uid" : "aa0c5521690b8f2f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558112914826,
+      "stop" : 1558113055406,
+      "duration" : 140580
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

@@ -1,0 +1,51 @@
+{
+  "uid" : "6e9f037a5312af3c",
+  "name" : "Site root option: To verify user able to view site root option",
+  "fullName" : "Site root should .Site root option: To verify user able to view site root option",
+  "historyId" : "5ec2ea714c487e8eac4c1dd448b42631",
+  "time" : {
+    "start" : 1558112570770,
+    "stop" : 1558112900641,
+    "duration" : 329871
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timed out retrying: Expected to find element: '.assetLabelLink.ng-binding', but never found it.",
+  "statusTrace" : "CypressError: Timed out retrying: Expected to find element: '.assetLabelLink.ng-binding', but never found it.\n                    at Object.cypressErr (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:82944:11)\n                    at Object.throwErr (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:82909:18)\n                    at Object.throwErrByPath (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:82936:17)\n                    at retry (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:76454:16)\n                    at https://intr1.cprd.io/__cypress/runner/cypress_runner.js:68529:18\n                    at tryCatcher (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:131381:23)\n                    at Promise._settlePromiseFromHandler (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:129399:31)\n                    at Promise._settlePromise (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:129456:18)\n                    at Promise._settlePromise0 (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:129501:10)\n                    at Promise._settlePromises (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:129576:18)\n                    at Async._drainQueue (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:126305:16)\n                    at Async._drainQueues (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:126315:10)\n                    at Async.drainQueues (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:126189:14)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Site root should "
+  }, {
+    "name" : "testClass",
+    "value" : "Site root should "
+  }, {
+    "name" : "testMethod",
+    "value" : "Site root option: To verify user able to view site root option"
+  }, {
+    "name" : "package",
+    "value" : "Site root should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6e9f037a5312af3c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "ee4170103726d370",
+  "name" : "Release Notes link: To verify the Release Note link on the CMS Login screen",
+  "fullName" : "Login should .Release Notes link: To verify the Release Note link on the CMS Login screen",
+  "historyId" : "83e203f04899030f3216e289d3213680",
+  "time" : {
+    "start" : 1558111935723,
+    "stop" : 1558111937103,
+    "duration" : 1380
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login should "
+  }, {
+    "name" : "testClass",
+    "value" : "Login should "
+  }, {
+    "name" : "testMethod",
+    "value" : "Release Notes link: To verify the Release Note link on the CMS Login screen"
+  }, {
+    "name" : "package",
+    "value" : "Login should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee4170103726d370.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "792c1e29ea51b102",
+  "name" : "Language: To verify the option displayed on hovering language link under User icon",
+  "fullName" : "Links: To check all available links are clickable and opening properly .Language: To verify the option displayed on hovering language link under User icon",
+  "historyId" : "3c50ac76c63c8596898d4f5dff773902",
+  "time" : {
+    "start" : 1558111770988,
+    "stop" : 1558111778048,
+    "duration" : 7060
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "Language: To verify the option displayed on hovering language link under User icon"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "792c1e29ea51b102.json",
+  "parameterValues" : [ ]
+}

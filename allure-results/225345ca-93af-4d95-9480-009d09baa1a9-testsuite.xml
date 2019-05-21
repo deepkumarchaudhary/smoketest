@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558109433654' stop='1558110148995'>
+    <name>Publishing should </name>
+    <title>Publishing should </title>
+    <test-cases>
+        <test-case start='1558109433657' status='broken' stop='1558110148907'>
+            <name>Proceed to Folder, Branched Asset, Cloned Asset</name>
+            <title>Proceed to Folder, Branched Asset, Cloned Asset</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying: Expected to find element: '.toast-message', but never found it.</message>
+                <stack-trace>CypressError: Timed out retrying: Expected to find element: '.toast-message', but never found it.
+                    at Object.cypressErr (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:82944:11)
+                    at Object.throwErr (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:82909:18)
+                    at Object.throwErrByPath (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:82936:17)
+                    at retry (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:76454:16)
+                    at https://intr1.cprd.io/__cypress/runner/cypress_runner.js:68529:18
+                    at tryCatcher (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:131381:23)
+                    at Promise._settlePromiseFromHandler (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:129399:31)
+                    at Promise._settlePromise (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:129456:18)
+                    at Promise._settlePromise0 (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:129501:10)
+                    at Promise._settlePromises (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:129576:18)
+                    at Async._drainQueue (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:126305:16)
+                    at Async._drainQueues (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:126315:10)
+                    at Async.drainQueues (https://intr1.cprd.io/__cypress/runner/cypress_runner.js:126189:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

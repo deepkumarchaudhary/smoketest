@@ -1,0 +1,45 @@
+{
+  "uid" : "aa0c5521690b8f2f",
+  "name" : "Dockable Panel option: To verify user able to view Dockable Panel options",
+  "fullName" : "Dockable Panel should .Dockable Panel option: To verify user able to view Dockable Panel options",
+  "historyId" : "3d20160c8657788c4b6428c1393d556f",
+  "time" : {
+    "start" : 1558112914826,
+    "stop" : 1558113055406,
+    "duration" : 140580
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Dockable Panel should "
+  }, {
+    "name" : "testClass",
+    "value" : "Dockable Panel should "
+  }, {
+    "name" : "testMethod",
+    "value" : "Dockable Panel option: To verify user able to view Dockable Panel options"
+  }, {
+    "name" : "package",
+    "value" : "Dockable Panel should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa0c5521690b8f2f.json",
+  "parameterValues" : [ ]
+}

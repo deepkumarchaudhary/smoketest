@@ -1,6 +1,8 @@
-{ "baseUrl": "https://cms2.crownpeak.net/QAAdventGeneral1/V3/#/login",
-  "reporter": "mochawesome",
+{
+  "baseUrl": "https://intr1.cprd.io/Snoop/",
+  "reporter": "mocha-allure-reporter",
   "reporterOptions": {
+    "disableWebdriverScreenshotsReporting": false,
     "mochaFile": "results/my-test-output-[hash].xml",
     "html": true,
     "json": true,
@@ -8,8 +10,9 @@
   },
   "viewportWidth": 1024,
   "viewportHeight": 500,
-  "requestTimeout": 3600000, "responseTimeout": 3600000,
+  "requestTimeout": 3600000,
+  "responseTimeout": 3600000,
   "chromeWebSecurity": false,
   "numTestsKeptInMemory": 0,
-  "video": false
+  "defaultCommandTimeout":150000
 }

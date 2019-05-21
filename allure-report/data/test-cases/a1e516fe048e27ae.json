@@ -1,0 +1,45 @@
+{
+  "uid" : "a1e516fe048e27ae",
+  "name" : "Privacy Link: Verify the functionality of Privacy link on the CMS Login screen",
+  "fullName" : "Login should .Privacy Link: Verify the functionality of Privacy link on the CMS Login screen",
+  "historyId" : "eb7ff6d1de1dd567d0ed1fd564efb0b0",
+  "time" : {
+    "start" : 1558111932940,
+    "stop" : 1558111934309,
+    "duration" : 1369
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login should "
+  }, {
+    "name" : "testClass",
+    "value" : "Login should "
+  }, {
+    "name" : "testMethod",
+    "value" : "Privacy Link: Verify the functionality of Privacy link on the CMS Login screen"
+  }, {
+    "name" : "package",
+    "value" : "Login should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1e516fe048e27ae.json",
+  "parameterValues" : [ ]
+}

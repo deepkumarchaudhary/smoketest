@@ -1,0 +1,45 @@
+{
+  "uid" : "5cd9151fc27609af",
+  "name" : "HelpIcon: To verify the navigation on clicking Help icon from left menu",
+  "fullName" : "Links: To check all available links are clickable and opening properly .HelpIcon: To verify the navigation on clicking Help icon from left menu",
+  "historyId" : "cef8b7cdf909edb14121b2af23a285fb",
+  "time" : {
+    "start" : 1558111691237,
+    "stop" : 1558111723065,
+    "duration" : 31828
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "HelpIcon: To verify the navigation on clicking Help icon from left menu"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cd9151fc27609af.json",
+  "parameterValues" : [ ]
+}

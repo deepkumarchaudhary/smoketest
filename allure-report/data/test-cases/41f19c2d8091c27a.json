@@ -1,0 +1,45 @@
+{
+  "uid" : "41f19c2d8091c27a",
+  "name" : "Back to login link: To verify the navigation of the user on clicking back to Login link",
+  "fullName" : "Login should .Back to login link: To verify the navigation of the user on clicking back to Login link",
+  "historyId" : "df606e67ee30fc1111f6aab7e318c1fb",
+  "time" : {
+    "start" : 1558111901329,
+    "stop" : 1558111932923,
+    "duration" : 31594
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login should "
+  }, {
+    "name" : "testClass",
+    "value" : "Login should "
+  }, {
+    "name" : "testMethod",
+    "value" : "Back to login link: To verify the navigation of the user on clicking back to Login link"
+  }, {
+    "name" : "package",
+    "value" : "Login should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41f19c2d8091c27a.json",
+  "parameterValues" : [ ]
+}

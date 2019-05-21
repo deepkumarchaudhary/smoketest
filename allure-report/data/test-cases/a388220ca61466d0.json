@@ -1,0 +1,45 @@
+{
+  "uid" : "a388220ca61466d0",
+  "name" : ".should() - login to v3 > navigate through reports > verify each settings",
+  "fullName" : "Settings should ..should() - login to v3 > navigate through reports > verify each settings",
+  "historyId" : "fe0704f000f5aba6f00a68381a975559",
+  "time" : {
+    "start" : 1558112444300,
+    "stop" : 1558112554631,
+    "duration" : 110331
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Settings should "
+  }, {
+    "name" : "testClass",
+    "value" : "Settings should "
+  }, {
+    "name" : "testMethod",
+    "value" : ".should() - login to v3 > navigate through reports > verify each settings"
+  }, {
+    "name" : "package",
+    "value" : "Settings should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a388220ca61466d0.json",
+  "parameterValues" : [ ]
+}

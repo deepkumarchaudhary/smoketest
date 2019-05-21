@@ -1,0 +1,45 @@
+{
+  "uid" : "fbeaf63e78c37b87",
+  "name" : "DAM: To check digital asset management functionality ",
+  "fullName" : "DAM should .DAM: To check digital asset management functionality ",
+  "historyId" : "c6a1286737e68940d2d1f1da84762d8b",
+  "time" : {
+    "start" : 1558111611388,
+    "stop" : 1558111669432,
+    "duration" : 58044
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "DAM should "
+  }, {
+    "name" : "testClass",
+    "value" : "DAM should "
+  }, {
+    "name" : "testMethod",
+    "value" : "DAM: To check digital asset management functionality "
+  }, {
+    "name" : "package",
+    "value" : "DAM should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbeaf63e78c37b87.json",
+  "parameterValues" : [ ]
+}

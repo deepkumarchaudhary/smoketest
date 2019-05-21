@@ -1,0 +1,45 @@
+{
+  "uid" : "58f2fd521d0c3a6a",
+  "name" : ".should() - login to v3 > navigate through reports > verify each reports url",
+  "fullName" : "Reports should ..should() - login to v3 > navigate through reports > verify each reports url",
+  "historyId" : "f3481f6565eeba5f5353568689c86ee9",
+  "time" : {
+    "start" : 1558112373962,
+    "stop" : 1558112430194,
+    "duration" : 56232
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Reports should "
+  }, {
+    "name" : "testClass",
+    "value" : "Reports should "
+  }, {
+    "name" : "testMethod",
+    "value" : ".should() - login to v3 > navigate through reports > verify each reports url"
+  }, {
+    "name" : "package",
+    "value" : "Reports should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58f2fd521d0c3a6a.json",
+  "parameterValues" : [ ]
+}

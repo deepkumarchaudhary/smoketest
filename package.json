@@ -6,10 +6,14 @@
   "scripts": {
     "cypress:open": "cypress open test",
     "go": "cypress open --browser chromium lint test",
-    "test": "./node_modules/.bin/cypress run --reporter mochawesome",
+    "testSmoke": "./node_modules/.bin/cypress run --spec '**/Smoke/**' --reporter mocha-allure-reporter",
+	"testRegression": "./node_modules/.bin/cypress run --spec '**/Regression/**' --reporter mocha-allure-reporter",
     "cy": "./node_modules/.bin/cypress open",
     "lint": "tslint -c tslint.json -p .  -t stylish cypress/**/*.ts",
-    "testNothing": "echo \"Error: no test specified\" && exit 1"
+    "testNothing": "echo \"Error: no test specified\" && exit 1",
+    "report": "allure generate allure-results --clean -o allure-report || true",
+    "executeSmoke": "cypress run --browser chrome --spec '**/Smoke/**' --reporter mocha-allure-reporter",
+    "executeRegression": "cypress run --browser chrome --spec '**/Regression/**' --reporter mocha-allure-reporter"
   },
   "author": "Aalok Payal",
   "license": "ISC",
@@ -22,9 +26,11 @@
   "devDependencies": {
     "@types/cypress": "^1.1.3",
     "@types/mocha": "^5.2.0",
+    "allure-commandline": "^2.9.0",
     "cypress": "^3.2.0",
     "eslint-plugin-cypress": "^2.2.0",
     "mocha": "^5.2.0",
+    "mocha-allure-reporter": "^1.4.0",
     "mochawesome": "^3.1.1",
     "mochawesome-merge": "^1.0.7",
     "mochawesome-report-generator": "^3.1.5",

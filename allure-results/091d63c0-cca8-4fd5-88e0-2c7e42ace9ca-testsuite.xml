@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558112904694' stop='1558113055445'>
+    <name>Dockable Panel should </name>
+    <title>Dockable Panel should </title>
+    <test-cases>
+        <test-case start='1558112914826' status='passed' stop='1558113055406'>
+            <name>Dockable Panel option: To verify user able to view Dockable Panel options</name>
+            <title>Dockable Panel option: To verify user able to view Dockable Panel options</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

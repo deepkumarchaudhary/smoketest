@@ -1,0 +1,45 @@
+{
+  "uid" : "d857ca36926b1f68",
+  "name" : "V3 Login: To verify that user navigation on hitting application url",
+  "fullName" : "Login should .V3 Login: To verify that user navigation on hitting application url",
+  "historyId" : "67073440f3b379e022d78b071ceefd6c",
+  "time" : {
+    "start" : 1558111833862,
+    "stop" : 1558111899487,
+    "duration" : 65625
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login should "
+  }, {
+    "name" : "testClass",
+    "value" : "Login should "
+  }, {
+    "name" : "testMethod",
+    "value" : "V3 Login: To verify that user navigation on hitting application url"
+  }, {
+    "name" : "package",
+    "value" : "Login should "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d857ca36926b1f68.json",
+  "parameterValues" : [ ]
+}

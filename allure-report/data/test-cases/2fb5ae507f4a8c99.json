@@ -1,0 +1,45 @@
+{
+  "uid" : "2fb5ae507f4a8c99",
+  "name" : "Contact Support tab: To verify the Contact Support tab",
+  "fullName" : "Links: To check all available links are clickable and opening properly .Contact Support tab: To verify the Contact Support tab",
+  "historyId" : "341973441e31f67744de8a4feaa795bd",
+  "time" : {
+    "start" : 1558111730177,
+    "stop" : 1558111737048,
+    "duration" : 6871
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "Contact Support tab: To verify the Contact Support tab"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fb5ae507f4a8c99.json",
+  "parameterValues" : [ ]
+}

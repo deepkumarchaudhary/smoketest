@@ -1,0 +1,45 @@
+{
+  "uid" : "8e173e31e8cdafa",
+  "name" : "Privacy link: To verify the Privacy link under User icon",
+  "fullName" : "Links: To check all available links are clickable and opening properly .Privacy link: To verify the Privacy link under User icon",
+  "historyId" : "ac31df0b103a1a59e863cf4ac9e677a6",
+  "time" : {
+    "start" : 1558111778067,
+    "stop" : 1558111784677,
+    "duration" : 6610
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testClass",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "testMethod",
+    "value" : "Privacy link: To verify the Privacy link under User icon"
+  }, {
+    "name" : "package",
+    "value" : "Links: To check all available links are clickable and opening properly "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e173e31e8cdafa.json",
+  "parameterValues" : [ ]
+}

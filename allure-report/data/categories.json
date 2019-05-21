@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timed out retrying: Expected to find element: '#tinymce', but never found it.",
+      "children" : [ {
+        "name" : "Proceed to Folder, Branched Asset, Cloned Asset",
+        "uid" : "ed4e65149257c4c2",
+        "parentUid" : "9dd872dbde89f6f4f0fda6a450ed2413",
+        "status" : "broken",
+        "time" : {
+          "start" : 1558111963681,
+          "stop" : 1558112355869,
+          "duration" : 392188
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9dd872dbde89f6f4f0fda6a450ed2413"
+    }, {
+      "name" : "Timed out retrying: Expected to find element: '.assetLabelLink.ng-binding', but never found it.",
+      "children" : [ {
+        "name" : "Site root option: To verify user able to view site root option",
+        "uid" : "6e9f037a5312af3c",
+        "parentUid" : "218751917c9b47dae3a723711ecba26b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1558112570770,
+          "stop" : 1558112900641,
+          "duration" : 329871
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "218751917c9b47dae3a723711ecba26b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
