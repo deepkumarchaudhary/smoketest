@@ -39,7 +39,7 @@ cache:
 
 #-----Disabled for a time being
 test_script:
-  - npm run test
+  - npm run executeSmoke
 #npm install mochawesome-merge --save-dev
 #- npm install mochawesome --save-dev
 
