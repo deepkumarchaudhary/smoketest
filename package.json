@@ -34,7 +34,7 @@
     "mochawesome": "^3.1.1",
     "mochawesome-merge": "^1.0.7",
     "mochawesome-report-generator": "^3.1.5",
-    "npm": "^6.9.0",
+    "npm": "^6.14.6",
     "read-data": "^1.1.0",
     "tslint-plugin-cypress": "^1.0.4"
   }
